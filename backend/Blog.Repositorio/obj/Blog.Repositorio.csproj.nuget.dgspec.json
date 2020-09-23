@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/Blog.Repositorio.csproj": {}
+  },
+  "projects": {
+    "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/Blog.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/Blog.Dominio.csproj",
+        "projectName": "Blog.Dominio",
+        "projectPath": "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/Blog.Dominio.csproj",
+        "packagesPath": "/home/doria/.nuget/packages/",
+        "outputPath": "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/doria/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/Blog.Repositorio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/Blog.Repositorio.csproj",
+        "projectName": "Blog.Repositorio",
+        "projectPath": "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/Blog.Repositorio.csproj",
+        "packagesPath": "/home/doria/.nuget/packages/",
+        "outputPath": "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/doria/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/Blog.Dominio.csproj": {
+                "projectPath": "/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/Blog.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/bin/Debug/netstandard2.0/Blog.Repositorio.deps.json
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/bin/Debug/netstandard2.0/Blog.Repositorio.dll
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/bin/Debug/netstandard2.0/Blog.Repositorio.pdb
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/bin/Debug/netstandard2.0/Blog.Dominio.dll
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/bin/Debug/netstandard2.0/Blog.Dominio.pdb
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/obj/Debug/netstandard2.0/Blog.Repositorio.csprojAssemblyReference.cache
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/obj/Debug/netstandard2.0/Blog.Repositorio.csproj.CoreCompileInputs.cache
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/obj/Debug/netstandard2.0/Blog.Repositorio.AssemblyInfoInputs.cache
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/obj/Debug/netstandard2.0/Blog.Repositorio.AssemblyInfo.cs
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/obj/Debug/netstandard2.0/Blog.Repositorio.csproj.CopyComplete
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/obj/Debug/netstandard2.0/Blog.Repositorio.dll
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Repositorio/obj/Debug/netstandard2.0/Blog.Repositorio.pdb

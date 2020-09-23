@@ -1,0 +1,9 @@
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/bin/Debug/netstandard2.0/Blog.Dominio.deps.json
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/bin/Debug/netstandard2.0/Blog.Dominio.dll
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/bin/Debug/netstandard2.0/Blog.Dominio.pdb
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/obj/Debug/netstandard2.0/Blog.Dominio.csprojAssemblyReference.cache
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/obj/Debug/netstandard2.0/Blog.Dominio.csproj.CoreCompileInputs.cache
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/obj/Debug/netstandard2.0/Blog.Dominio.AssemblyInfoInputs.cache
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/obj/Debug/netstandard2.0/Blog.Dominio.AssemblyInfo.cs
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/obj/Debug/netstandard2.0/Blog.Dominio.dll
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.Dominio/obj/Debug/netstandard2.0/Blog.Dominio.pdb
