@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Blog.Repositorio.Migrations
 {
     [DbContext(typeof(BlogContext))]
-    [Migration("20200923212122_init")]
+    [Migration("20200924140624_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,6 +27,8 @@ namespace Blog.Repositorio.Migrations
 
                     b.Property<string>("Descricao");
 
+                    b.Property<string>("Resumo");
+
                     b.Property<string>("Titulo");
 
                     b.Property<int>("UsuarioId");
@@ -35,7 +37,7 @@ namespace Blog.Repositorio.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Post");
+                    b.ToTable("Posts");
                 });
 
             modelBuilder.Entity("Blog.Dominio.Usuario", b =>
@@ -51,7 +53,7 @@ namespace Blog.Repositorio.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuario");
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("Blog.Dominio.Post", b =>

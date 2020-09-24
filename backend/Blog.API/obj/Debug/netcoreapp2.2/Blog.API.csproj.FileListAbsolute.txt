@@ -7,7 +7,6 @@
 /home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/bin/Debug/netcoreapp2.2/Blog.Repositorio.dll
 /home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/bin/Debug/netcoreapp2.2/Blog.Dominio.pdb
 /home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/bin/Debug/netcoreapp2.2/Blog.Repositorio.pdb
-/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/obj/Debug/netcoreapp2.2/Blog.API.csprojAssemblyReference.cache
 /home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/obj/Debug/netcoreapp2.2/Blog.API.csproj.CoreCompileInputs.cache
 /home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/obj/Debug/netcoreapp2.2/Blog.API.RazorAssemblyInfo.cache
 /home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/obj/Debug/netcoreapp2.2/Blog.API.RazorAssemblyInfo.cs
@@ -17,3 +16,4 @@
 /home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/obj/Debug/netcoreapp2.2/Blog.API.csproj.CopyComplete
 /home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/obj/Debug/netcoreapp2.2/Blog.API.dll
 /home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/obj/Debug/netcoreapp2.2/Blog.API.pdb
+/home/doria/Área de Trabalho/lumini-it-blog/backend/Blog.API/obj/Debug/netcoreapp2.2/Blog.API.csprojAssemblyReference.cache

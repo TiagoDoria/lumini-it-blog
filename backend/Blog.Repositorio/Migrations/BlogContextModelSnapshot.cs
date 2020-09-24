@@ -25,6 +25,8 @@ namespace Blog.Repositorio.Migrations
 
                     b.Property<string>("Descricao");
 
+                    b.Property<string>("Resumo");
+
                     b.Property<string>("Titulo");
 
                     b.Property<int>("UsuarioId");
@@ -33,7 +35,7 @@ namespace Blog.Repositorio.Migrations
 
                     b.HasIndex("UsuarioId");
 
-                    b.ToTable("Post");
+                    b.ToTable("Posts");
                 });
 
             modelBuilder.Entity("Blog.Dominio.Usuario", b =>
@@ -49,7 +51,7 @@ namespace Blog.Repositorio.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuario");
+                    b.ToTable("Usuarios");
                 });
 
             modelBuilder.Entity("Blog.Dominio.Post", b =>
