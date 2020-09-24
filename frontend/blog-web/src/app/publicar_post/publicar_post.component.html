@@ -1,0 +1,58 @@
+<app-nav></app-nav>
+<body>
+
+  <div class="container">
+    <br>
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-6">
+        <h2 class="text-center">Publicar Post</h2>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+          <form [formGroup]="registerForm">
+            <div class="form-group">
+              <label for="nome">Título</label>
+              <input type="text" class="form-control" [ngClass]="{'is-invalid': registerForm.get('titulo').errors && registerForm.get('titulo').touched }" id="titulo" formControlName="titulo">
+              <div class="invalid-feedback">
+                O campo 'Título' é obrigatório.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="resumo">Resumo</label>
+              <textarea class="form-control" [ngClass]="{'is-invalid': registerForm.get('resumo').errors && registerForm.get('resumo').touched }" id="resumo" formControlName="resumo" rows="6"></textarea>
+              <div *ngIf="registerForm.get('resumo').hasError('required') && registerForm.get('resumo').touched" class="invalid-feedback">
+                  O campo 'Resumo' é obrigatório.
+              </div>
+              <div *ngIf="registerForm.get('resumo').hasError('minlength') && registerForm.get('resumo').touched" class="invalid-feedback">
+                O campo 'Resumo' deve ter no mínimo 20 caracteres.
+              </div>
+              <div *ngIf="registerForm.get('resumo').hasError('maxlength') && registerForm.get('resumo').touched" class="invalid-feedback">
+                O campo 'Resumo' deve ter no máximo 500 caracteres.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="senha">Texto</label>
+              <textarea class="form-control" id="descricao" [ngClass]="{'is-invalid': registerForm.get('descricao').errors && registerForm.get('descricao').touched }" formControlName="descricao" rows="6"></textarea>
+              <div *ngIf="registerForm.get('descricao').hasError('required') && registerForm.get('descricao').touched" class="invalid-feedback">
+                  O campo 'Texto' é obrigatório.
+              </div>
+              <div *ngIf="registerForm.get('descricao').hasError('minlength') && registerForm.get('descricao').touched" class="invalid-feedback">
+                O campo 'Texto' deve ter no mínimo 20 caracteres.
+              </div>
+            </div>
+            
+            <button type="submit" (click)="salvar()" [disabled]="!registerForm.valid" class="btn btn-primary">Publicar</button>
+          </form> 
+      </div>
+      <div class="col-md-4"></div>
+     
+    </div>
+    
+  </div>
+  <!-- /.container -->
+</body>
